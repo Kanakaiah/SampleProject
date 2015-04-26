@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760CA3DE1A085E6A007B2BEC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760CA2C81A085E6A007B2BEC /* Bolts.framework */; };
+		760CA3DF1A085E6A007B2BEC /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760CA2C91A085E6A007B2BEC /* FacebookSDK.framework */; };
+		760CA3E01A085E6A007B2BEC /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760CA2CB1A085E6A007B2BEC /* FBAudienceNetwork.framework */; };
+		760CA3E11A085E6A007B2BEC /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 760CA2CC1A085E6A007B2BEC /* README.txt */; };
+		760CA3F91A085E6A007B2BEC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 760CA2F71A085E6A007B2BEC /* LICENSE */; };
+		760CA3FA1A085E6A007B2BEC /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 760CA2F81A085E6A007B2BEC /* README.txt */; };
+		761F1F6B1A048CB000C20AAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F1F6A1A048CB000C20AAA /* main.m */; };
+		761F1F6E1A048CB000C20AAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F1F6D1A048CB000C20AAA /* AppDelegate.m */; };
+		761F1F711A048CB000C20AAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F1F701A048CB000C20AAA /* ViewController.m */; };
+		761F1F741A048CB000C20AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761F1F721A048CB000C20AAA /* Main.storyboard */; };
+		761F1F761A048CB000C20AAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761F1F751A048CB000C20AAA /* Images.xcassets */; };
+		761F1F791A048CB000C20AAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 761F1F771A048CB000C20AAA /* LaunchScreen.xib */; };
+		761F1F851A048CB000C20AAA /* mRingoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F1F841A048CB000C20AAA /* mRingoTests.m */; };
+		761F1F921A04915B00C20AAA /* CSSignupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F1F8F1A04915B00C20AAA /* CSSignupTableViewCell.m */; };
+		761F1F931A04915B00C20AAA /* CSSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F1F911A04915B00C20AAA /* CSSignupViewController.m */; };
+		761F1F961A04916800C20AAA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761F1F941A04916800C20AAA /* MainStoryboard.storyboard */; };
+		767BA3A91AE2254900A21403 /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767BA3A81AE2254900A21403 /* CSViewController.m */; };
+		767BA3B51AE240FB00A21403 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 767BA3B41AE240FB00A21403 /* UIImage+ImageEffects.m */; };
+		767BA3B71AE456B700A21403 /* DJBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3B61AE456B700A21403 /* DJBack.png */; };
+		767BA3C71AE4CB4C00A21403 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3BA1AE4CB4C00A21403 /* LICENSE.txt */; };
+		767BA3C81AE4CB4C00A21403 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3BB1AE4CB4C00A21403 /* Roboto-Black.ttf */; };
+		767BA3C91AE4CB4C00A21403 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3BC1AE4CB4C00A21403 /* Roboto-BlackItalic.ttf */; };
+		767BA3CA1AE4CB4C00A21403 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3BD1AE4CB4C00A21403 /* Roboto-Bold.ttf */; };
+		767BA3CB1AE4CB4C00A21403 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3BE1AE4CB4C00A21403 /* Roboto-BoldItalic.ttf */; };
+		767BA3CC1AE4CB4C00A21403 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3BF1AE4CB4C00A21403 /* Roboto-Italic.ttf */; };
+		767BA3CD1AE4CB4C00A21403 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3C01AE4CB4C00A21403 /* Roboto-Light.ttf */; };
+		767BA3CE1AE4CB4C00A21403 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3C11AE4CB4C00A21403 /* Roboto-LightItalic.ttf */; };
+		767BA3CF1AE4CB4C00A21403 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3C21AE4CB4C00A21403 /* Roboto-Medium.ttf */; };
+		767BA3D01AE4CB4C00A21403 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3C31AE4CB4C00A21403 /* Roboto-MediumItalic.ttf */; };
+		767BA3D11AE4CB4C00A21403 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3C41AE4CB4C00A21403 /* Roboto-Regular.ttf */; };
+		767BA3D21AE4CB4C00A21403 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3C51AE4CB4C00A21403 /* Roboto-Thin.ttf */; };
+		767BA3D31AE4CB4C00A21403 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 767BA3C61AE4CB4C00A21403 /* Roboto-ThinItalic.ttf */; };
+		767BA3E21AE4E13C00A21403 /* CSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 767BA3E11AE4E13C00A21403 /* CSButton.m */; };
+		76AC19D61A08A54A008C7107 /* CSFacebookLoginViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC19D51A08A54A008C7107 /* CSFacebookLoginViewViewController.m */; };
+		76EEE81D1A054E58001BECC6 /* CSBuildProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EEE81C1A054E58001BECC6 /* CSBuildProfileViewController.m */; };
+		76EEE8211A05BE78001BECC6 /* CSBuildProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EEE8201A05BE78001BECC6 /* CSBuildProfileTableViewCell.m */; };
+		76EEE8241A05D027001BECC6 /* CSSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EEE8231A05D027001BECC6 /* CSSearchResultsViewController.m */; };
+		76EEE8281A05D61C001BECC6 /* CSSearchResultsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EEE8271A05D61C001BECC6 /* CSSearchResultsTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		761F1F7F1A048CB000C20AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 761F1F5D1A048CB000C20AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 761F1F641A048CB000C20AAA;
+			remoteInfo = mRingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		760CA2C81A085E6A007B2BEC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		760CA2C91A085E6A007B2BEC /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		760CA2CB1A085E6A007B2BEC /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		760CA2CC1A085E6A007B2BEC /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		760CA2F71A085E6A007B2BEC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		760CA2F81A085E6A007B2BEC /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		761F1F651A048CB000C20AAA /* mRingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mRingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		761F1F691A048CB000C20AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761F1F6A1A048CB000C20AAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		761F1F6C1A048CB000C20AAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		761F1F6D1A048CB000C20AAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		761F1F6F1A048CB000C20AAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		761F1F701A048CB000C20AAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		761F1F731A048CB000C20AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		761F1F751A048CB000C20AAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		761F1F781A048CB000C20AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		761F1F7E1A048CB000C20AAA /* mRingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mRingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		761F1F831A048CB000C20AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761F1F841A048CB000C20AAA /* mRingoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mRingoTests.m; sourceTree = "<group>"; };
+		761F1F8E1A04915B00C20AAA /* CSSignupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSignupTableViewCell.h; sourceTree = "<group>"; };
+		761F1F8F1A04915B00C20AAA /* CSSignupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSignupTableViewCell.m; sourceTree = "<group>"; };
+		761F1F901A04915B00C20AAA /* CSSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSignupViewController.h; sourceTree = "<group>"; };
+		761F1F911A04915B00C20AAA /* CSSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSignupViewController.m; sourceTree = "<group>"; };
+		761F1F951A04916800C20AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		767BA3A71AE2254900A21403 /* CSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSViewController.h; path = Commons/CSViewController.h; sourceTree = "<group>"; };
+		767BA3A81AE2254900A21403 /* CSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSViewController.m; path = Commons/CSViewController.m; sourceTree = "<group>"; };
+		767BA3B31AE240FB00A21403 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "Commons/UIImageEffects/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		767BA3B41AE240FB00A21403 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "Commons/UIImageEffects/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		767BA3B61AE456B700A21403 /* DJBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DJBack.png; path = Media/DJBack.png; sourceTree = SOURCE_ROOT; };
+		767BA3BA1AE4CB4C00A21403 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		767BA3BB1AE4CB4C00A21403 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		767BA3BC1AE4CB4C00A21403 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		767BA3BD1AE4CB4C00A21403 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		767BA3BE1AE4CB4C00A21403 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		767BA3BF1AE4CB4C00A21403 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		767BA3C01AE4CB4C00A21403 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		767BA3C11AE4CB4C00A21403 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		767BA3C21AE4CB4C00A21403 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		767BA3C31AE4CB4C00A21403 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		767BA3C41AE4CB4C00A21403 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		767BA3C51AE4CB4C00A21403 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		767BA3C61AE4CB4C00A21403 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		767BA3E01AE4E13C00A21403 /* CSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSButton.h; path = Commons/CSButton.h; sourceTree = "<group>"; };
+		767BA3E11AE4E13C00A21403 /* CSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSButton.m; path = Commons/CSButton.m; sourceTree = "<group>"; };
+		769338431AE2216200E5770A /* definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = definitions.h; path = Commons/definitions.h; sourceTree = "<group>"; };
+		76AC19D41A08A54A008C7107 /* CSFacebookLoginViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSFacebookLoginViewViewController.h; sourceTree = "<group>"; };
+		76AC19D51A08A54A008C7107 /* CSFacebookLoginViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFacebookLoginViewViewController.m; sourceTree = "<group>"; };
+		76EEE81B1A054E58001BECC6 /* CSBuildProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSBuildProfileViewController.h; sourceTree = "<group>"; };
+		76EEE81C1A054E58001BECC6 /* CSBuildProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSBuildProfileViewController.m; sourceTree = "<group>"; };
+		76EEE81F1A05BE78001BECC6 /* CSBuildProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSBuildProfileTableViewCell.h; sourceTree = "<group>"; };
+		76EEE8201A05BE78001BECC6 /* CSBuildProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSBuildProfileTableViewCell.m; sourceTree = "<group>"; };
+		76EEE8221A05D027001BECC6 /* CSSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSearchResultsViewController.h; sourceTree = "<group>"; };
+		76EEE8231A05D027001BECC6 /* CSSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSearchResultsViewController.m; sourceTree = "<group>"; };
+		76EEE8261A05D61C001BECC6 /* CSSearchResultsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSearchResultsTableViewCell.h; sourceTree = "<group>"; };
+		76EEE8271A05D61C001BECC6 /* CSSearchResultsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSearchResultsTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		761F1F621A048CB000C20AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760CA3E01A085E6A007B2BEC /* FBAudienceNetwork.framework in Frameworks */,
+				760CA3DE1A085E6A007B2BEC /* Bolts.framework in Frameworks */,
+				760CA3DF1A085E6A007B2BEC /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761F1F7B1A048CB000C20AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		760CA2C61A085E32007B2BEC /* ExtFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				760CA2C71A085E6A007B2BEC /* FacebookSDK */,
+			);
+			name = ExtFrameworks;
+			sourceTree = "<group>";
+		};
+		760CA2C71A085E6A007B2BEC /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				760CA2C81A085E6A007B2BEC /* Bolts.framework */,
+				760CA2C91A085E6A007B2BEC /* FacebookSDK.framework */,
+				760CA2CA1A085E6A007B2BEC /* FBAudienceNetwork */,
+				760CA2F71A085E6A007B2BEC /* LICENSE */,
+				760CA2F81A085E6A007B2BEC /* README.txt */,
+			);
+			name = FacebookSDK;
+			path = ../../../Documents/FacebookSDK;
+			sourceTree = "<group>";
+		};
+		760CA2CA1A085E6A007B2BEC /* FBAudienceNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				760CA2CB1A085E6A007B2BEC /* FBAudienceNetwork.framework */,
+				760CA2CC1A085E6A007B2BEC /* README.txt */,
+			);
+			path = FBAudienceNetwork;
+			sourceTree = "<group>";
+		};
+		761F1F5C1A048CB000C20AAA = {
+			isa = PBXGroup;
+			children = (
+				760CA2C61A085E32007B2BEC /* ExtFrameworks */,
+				761F1F671A048CB000C20AAA /* mRingo */,
+				761F1F811A048CB000C20AAA /* mRingoTests */,
+				761F1F661A048CB000C20AAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		761F1F661A048CB000C20AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				761F1F651A048CB000C20AAA /* mRingo.app */,
+				761F1F7E1A048CB000C20AAA /* mRingoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		761F1F671A048CB000C20AAA /* mRingo */ = {
+			isa = PBXGroup;
+			children = (
+				769338441AE2217500E5770A /* Commons */,
+				76AC19D31A08A52C008C7107 /* FacebookLogin */,
+				761F1F971A04917200C20AAA /* Signup */,
+				76EEE8251A05D032001BECC6 /* Search Results */,
+				76EEE81E1A054E60001BECC6 /* BuildProfile */,
+				761F1F6C1A048CB000C20AAA /* AppDelegate.h */,
+				761F1F6D1A048CB000C20AAA /* AppDelegate.m */,
+				761F1F6F1A048CB000C20AAA /* ViewController.h */,
+				761F1F701A048CB000C20AAA /* ViewController.m */,
+				761F1F941A04916800C20AAA /* MainStoryboard.storyboard */,
+				761F1F721A048CB000C20AAA /* Main.storyboard */,
+				761F1F751A048CB000C20AAA /* Images.xcassets */,
+				761F1F771A048CB000C20AAA /* LaunchScreen.xib */,
+				761F1F681A048CB000C20AAA /* Supporting Files */,
+			);
+			path = mRingo;
+			sourceTree = "<group>";
+		};
+		761F1F681A048CB000C20AAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				767BA3B81AE4CB1200A21403 /* Font */,
+				767BA3AA1AE236FC00A21403 /* Images */,
+				761F1F691A048CB000C20AAA /* Info.plist */,
+				761F1F6A1A048CB000C20AAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		761F1F811A048CB000C20AAA /* mRingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				761F1F841A048CB000C20AAA /* mRingoTests.m */,
+				761F1F821A048CB000C20AAA /* Supporting Files */,
+			);
+			path = mRingoTests;
+			sourceTree = "<group>";
+		};
+		761F1F821A048CB000C20AAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				761F1F831A048CB000C20AAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		761F1F971A04917200C20AAA /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				761F1F901A04915B00C20AAA /* CSSignupViewController.h */,
+				761F1F911A04915B00C20AAA /* CSSignupViewController.m */,
+				761F1F8E1A04915B00C20AAA /* CSSignupTableViewCell.h */,
+				761F1F8F1A04915B00C20AAA /* CSSignupTableViewCell.m */,
+			);
+			name = Signup;
+			sourceTree = "<group>";
+		};
+		767BA3AA1AE236FC00A21403 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				767BA3B61AE456B700A21403 /* DJBack.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		767BA3AF1AE23C6500A21403 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				767BA3B31AE240FB00A21403 /* UIImage+ImageEffects.h */,
+				767BA3B41AE240FB00A21403 /* UIImage+ImageEffects.m */,
+			);
+			name = Ext;
+			sourceTree = "<group>";
+		};
+		767BA3B81AE4CB1200A21403 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				767BA3B91AE4CB4C00A21403 /* Roboto */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		767BA3B91AE4CB4C00A21403 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				767BA3BA1AE4CB4C00A21403 /* LICENSE.txt */,
+				767BA3BB1AE4CB4C00A21403 /* Roboto-Black.ttf */,
+				767BA3BC1AE4CB4C00A21403 /* Roboto-BlackItalic.ttf */,
+				767BA3BD1AE4CB4C00A21403 /* Roboto-Bold.ttf */,
+				767BA3BE1AE4CB4C00A21403 /* Roboto-BoldItalic.ttf */,
+				767BA3BF1AE4CB4C00A21403 /* Roboto-Italic.ttf */,
+				767BA3C01AE4CB4C00A21403 /* Roboto-Light.ttf */,
+				767BA3C11AE4CB4C00A21403 /* Roboto-LightItalic.ttf */,
+				767BA3C21AE4CB4C00A21403 /* Roboto-Medium.ttf */,
+				767BA3C31AE4CB4C00A21403 /* Roboto-MediumItalic.ttf */,
+				767BA3C41AE4CB4C00A21403 /* Roboto-Regular.ttf */,
+				767BA3C51AE4CB4C00A21403 /* Roboto-Thin.ttf */,
+				767BA3C61AE4CB4C00A21403 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Roboto;
+			path = Media/Fonts/Roboto;
+			sourceTree = SOURCE_ROOT;
+		};
+		769338441AE2217500E5770A /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				767BA3AF1AE23C6500A21403 /* Ext */,
+				769338431AE2216200E5770A /* definitions.h */,
+				767BA3A71AE2254900A21403 /* CSViewController.h */,
+				767BA3A81AE2254900A21403 /* CSViewController.m */,
+				767BA3E01AE4E13C00A21403 /* CSButton.h */,
+				767BA3E11AE4E13C00A21403 /* CSButton.m */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		76AC19D31A08A52C008C7107 /* FacebookLogin */ = {
+			isa = PBXGroup;
+			children = (
+				76AC19D41A08A54A008C7107 /* CSFacebookLoginViewViewController.h */,
+				76AC19D51A08A54A008C7107 /* CSFacebookLoginViewViewController.m */,
+			);
+			name = FacebookLogin;
+			sourceTree = "<group>";
+		};
+		76EEE81E1A054E60001BECC6 /* BuildProfile */ = {
+			isa = PBXGroup;
+			children = (
+				76EEE81B1A054E58001BECC6 /* CSBuildProfileViewController.h */,
+				76EEE81C1A054E58001BECC6 /* CSBuildProfileViewController.m */,
+				76EEE81F1A05BE78001BECC6 /* CSBuildProfileTableViewCell.h */,
+				76EEE8201A05BE78001BECC6 /* CSBuildProfileTableViewCell.m */,
+			);
+			name = BuildProfile;
+			sourceTree = "<group>";
+		};
+		76EEE8251A05D032001BECC6 /* Search Results */ = {
+			isa = PBXGroup;
+			children = (
+				76EEE8221A05D027001BECC6 /* CSSearchResultsViewController.h */,
+				76EEE8231A05D027001BECC6 /* CSSearchResultsViewController.m */,
+				76EEE8261A05D61C001BECC6 /* CSSearchResultsTableViewCell.h */,
+				76EEE8271A05D61C001BECC6 /* CSSearchResultsTableViewCell.m */,
+			);
+			name = "Search Results";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		761F1F641A048CB000C20AAA /* mRingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761F1F881A048CB000C20AAA /* Build configuration list for PBXNativeTarget "mRingo" */;
+			buildPhases = (
+				761F1F611A048CB000C20AAA /* Sources */,
+				761F1F621A048CB000C20AAA /* Frameworks */,
+				761F1F631A048CB000C20AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mRingo;
+			productName = mRingo;
+			productReference = 761F1F651A048CB000C20AAA /* mRingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		761F1F7D1A048CB000C20AAA /* mRingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761F1F8B1A048CB000C20AAA /* Build configuration list for PBXNativeTarget "mRingoTests" */;
+			buildPhases = (
+				761F1F7A1A048CB000C20AAA /* Sources */,
+				761F1F7B1A048CB000C20AAA /* Frameworks */,
+				761F1F7C1A048CB000C20AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761F1F801A048CB000C20AAA /* PBXTargetDependency */,
+			);
+			name = mRingoTests;
+			productName = mRingoTests;
+			productReference = 761F1F7E1A048CB000C20AAA /* mRingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		761F1F5D1A048CB000C20AAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = 4Faces;
+				TargetAttributes = {
+					761F1F641A048CB000C20AAA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					761F1F7D1A048CB000C20AAA = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 761F1F641A048CB000C20AAA;
+					};
+				};
+			};
+			buildConfigurationList = 761F1F601A048CB000C20AAA /* Build configuration list for PBXProject "mRingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				he,
+			);
+			mainGroup = 761F1F5C1A048CB000C20AAA;
+			productRefGroup = 761F1F661A048CB000C20AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				761F1F641A048CB000C20AAA /* mRingo */,
+				761F1F7D1A048CB000C20AAA /* mRingoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		761F1F631A048CB000C20AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761F1F741A048CB000C20AAA /* Main.storyboard in Resources */,
+				760CA3FA1A085E6A007B2BEC /* README.txt in Resources */,
+				767BA3CE1AE4CB4C00A21403 /* Roboto-LightItalic.ttf in Resources */,
+				767BA3D31AE4CB4C00A21403 /* Roboto-ThinItalic.ttf in Resources */,
+				767BA3CF1AE4CB4C00A21403 /* Roboto-Medium.ttf in Resources */,
+				767BA3CD1AE4CB4C00A21403 /* Roboto-Light.ttf in Resources */,
+				767BA3CA1AE4CB4C00A21403 /* Roboto-Bold.ttf in Resources */,
+				760CA3F91A085E6A007B2BEC /* LICENSE in Resources */,
+				767BA3CB1AE4CB4C00A21403 /* Roboto-BoldItalic.ttf in Resources */,
+				767BA3D21AE4CB4C00A21403 /* Roboto-Thin.ttf in Resources */,
+				767BA3C71AE4CB4C00A21403 /* LICENSE.txt in Resources */,
+				761F1F791A048CB000C20AAA /* LaunchScreen.xib in Resources */,
+				767BA3B71AE456B700A21403 /* DJBack.png in Resources */,
+				767BA3C91AE4CB4C00A21403 /* Roboto-BlackItalic.ttf in Resources */,
+				761F1F961A04916800C20AAA /* MainStoryboard.storyboard in Resources */,
+				767BA3C81AE4CB4C00A21403 /* Roboto-Black.ttf in Resources */,
+				767BA3CC1AE4CB4C00A21403 /* Roboto-Italic.ttf in Resources */,
+				767BA3D11AE4CB4C00A21403 /* Roboto-Regular.ttf in Resources */,
+				761F1F761A048CB000C20AAA /* Images.xcassets in Resources */,
+				767BA3D01AE4CB4C00A21403 /* Roboto-MediumItalic.ttf in Resources */,
+				760CA3E11A085E6A007B2BEC /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761F1F7C1A048CB000C20AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		761F1F611A048CB000C20AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761F1F931A04915B00C20AAA /* CSSignupViewController.m in Sources */,
+				76EEE8211A05BE78001BECC6 /* CSBuildProfileTableViewCell.m in Sources */,
+				767BA3E21AE4E13C00A21403 /* CSButton.m in Sources */,
+				76EEE8281A05D61C001BECC6 /* CSSearchResultsTableViewCell.m in Sources */,
+				761F1F711A048CB000C20AAA /* ViewController.m in Sources */,
+				767BA3A91AE2254900A21403 /* CSViewController.m in Sources */,
+				761F1F921A04915B00C20AAA /* CSSignupTableViewCell.m in Sources */,
+				76EEE81D1A054E58001BECC6 /* CSBuildProfileViewController.m in Sources */,
+				761F1F6E1A048CB000C20AAA /* AppDelegate.m in Sources */,
+				767BA3B51AE240FB00A21403 /* UIImage+ImageEffects.m in Sources */,
+				761F1F6B1A048CB000C20AAA /* main.m in Sources */,
+				76EEE8241A05D027001BECC6 /* CSSearchResultsViewController.m in Sources */,
+				76AC19D61A08A54A008C7107 /* CSFacebookLoginViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761F1F7A1A048CB000C20AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761F1F851A048CB000C20AAA /* mRingoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		761F1F801A048CB000C20AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 761F1F641A048CB000C20AAA /* mRingo */;
+			targetProxy = 761F1F7F1A048CB000C20AAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		761F1F721A048CB000C20AAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761F1F731A048CB000C20AAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		761F1F771A048CB000C20AAA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761F1F781A048CB000C20AAA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		761F1F941A04916800C20AAA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761F1F951A04916800C20AAA /* Base */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		761F1F861A048CB000C20AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		761F1F871A048CB000C20AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		761F1F891A048CB000C20AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/chandra/Documents/FacebookSDK,
+					/Users/chandra/Documents/FacebookSDK/FBAudienceNetwork,
+				);
+				INFOPLIST_FILE = mRingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		761F1F8A1A048CB000C20AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/chandra/Documents/FacebookSDK,
+					/Users/chandra/Documents/FacebookSDK/FBAudienceNetwork,
+				);
+				INFOPLIST_FILE = mRingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		761F1F8C1A048CB000C20AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mRingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mRingo.app/mRingo";
+			};
+			name = Debug;
+		};
+		761F1F8D1A048CB000C20AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mRingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mRingo.app/mRingo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		761F1F601A048CB000C20AAA /* Build configuration list for PBXProject "mRingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761F1F861A048CB000C20AAA /* Debug */,
+				761F1F871A048CB000C20AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761F1F881A048CB000C20AAA /* Build configuration list for PBXNativeTarget "mRingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761F1F891A048CB000C20AAA /* Debug */,
+				761F1F8A1A048CB000C20AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761F1F8B1A048CB000C20AAA /* Build configuration list for PBXNativeTarget "mRingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761F1F8C1A048CB000C20AAA /* Debug */,
+				761F1F8D1A048CB000C20AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 761F1F5D1A048CB000C20AAA /* Project object */;
+}
